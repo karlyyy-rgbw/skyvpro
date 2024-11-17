@@ -1,0 +1,53 @@
+* {  
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box;  
+}  
+
+body, html {  
+  height: 100%;  
+}  
+
+.video-background {  
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+  overflow: hidden;  
+  z-index: -1;
+  background-color:white; /* Position it behind other content */  
+}  
+
+video {  
+  min-width: 100%;  
+  min-height: 100%;  
+  width: auto;  
+  height: auto;  
+  position: absolute;  
+  top: 50%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+}  
+
+.content {  
+  position: relative;  
+  z-index: 1; /* Position it in front of the video */  
+  color: white;  
+  text-align: center;  
+  padding: 20px;  
+}
+.violet-bar {  
+  background-color: violet; /* Violet background */  
+  height: 40px; /* Height of the bar */  
+  width: 100%; /* Full width */  
+  position: absolute; /* Positioning it on top of the page */  
+  top: 0; /* Align to the top */  
+  left: 0; /* Align to the left */  
+  z-index: 1000; /* Ensure it appears above other elements */  
+}
+html{
+    margin: 0 !important;  
+    padding: 0 !important;  
+    background-color: yourColor !important; /* Change this to your desired color */  
+}

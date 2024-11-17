@@ -1,0 +1,53 @@
+
+.texts {  
+  color: blue;  /* Text color set to blue */  
+  max-width: 100%; /* Set the desired maximum width */  
+  margin: 0 auto; /* Center the navbar */  
+  text-align: center;
+}  
+.bluebos{
+  background-color: #0097b2;
+  max-width: 100%
+}
+.karlcard{
+  border-color:#0097b2;
+}
+.text-center{
+  align-items: center;
+}
+.titlee {  
+ /* Adjust this value to bring the title down */  
+  font-size: 100px;  /* You can adjust the font size if needed */ 
+  margin-top: 80px;
+  color: aliceblue; 
+  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;  
+  text-shadow: black;
+  background-color: #00687b;
+} 
+.pp{
+  color: aliceblue; 
+  font-weight: 500;
+  font-family: "Host Grotesk", sans-serif;
+}
+.highlight{  
+  background-color: #00687b;
+  color: white;
+}
+.buttonns{
+  background-color: aliceblue; 
+}
+.padding{
+  padding: 20px;
+}
+.yell{
+  color: yellow;
+}
+.lomel{
+  float:left;
+}
+.centre{
+  display:flex;   
+  justify-content: center;
+  align-items: center;
+}

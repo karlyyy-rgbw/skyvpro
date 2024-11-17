@@ -1,0 +1,151 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.texts {  
+  color: blue;  /* Text color set to blue */  
+  max-width: 100%; /* Set the desired maximum width */  
+  margin: 0 auto; /* Center the navbar */  
+  text-align: center;
+}  
+.bluebos{
+  background-image: #0097b2;
+  max-width: 100%;
+  height: fit-content;
+}
+.karlcard{
+  border-color:#0097b2;
+  margin-left: 120px;
+}
+.int{
+  font-size: 20px;  /* You can adjust the font size if needed */ 
+  color: aliceblue; 
+  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;
+  margin-left: 12px;}
+  .init{
+    font-size: 20px;  /* You can adjust the font size if needed */ 
+    color: black; 
+    font-weight: 700;
+    font-family: "Host Grotesk", sans-serif;
+    margin-bottom: 10px;
+}
+.ints{
+  font-size: 30px;  /* You can adjust the font size if needed */ 
+  color: aliceblue; 
+  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;
+  margin-left: 12px;
+}
+.text-center{
+  align-items: center;
+}
+.titlee {   /* Adjust this value to bring the title down */  
+  font-size: 70px;  /* You can adjust the font size if needed */ 
+  color: aliceblue; 
+  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;  
+  text-shadow: black;
+  background-color: #00687b;
+} 
+.pp{
+  color: aliceblue; 
+  font-weight: 500;
+  font-family: "Host Grotesk", sans-serif;
+}
+.highlight{  
+  background-color: #00687b;
+  color: white;
+}
+.buttonns{
+  background-color: aliceblue; 
+}
+.recCard{
+  position: relative;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.yell{
+  color: yellow;
+}
+.lomel{
+  float:left;
+}
+body,html{
+  height:150%;  
+}
+.Box{
+  width: 200px;
+  height: 40px;
+  background-color: #00687b;
+  margin-top: 20px;
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+}
+.category-image{
+  height:27px;
+  width:27px;
+}
+.Vio{
+  width: 1250px;
+  height: 40px;
+  background-color: #4C2881;}
+.Vio2{
+  width: 1250px;
+  height: 40px;
+  background-color: #4C2881;
+  margin-top: 300px;
+  text-align: right;
+}
+.k{
+  margin-top: 0%;
+}
+.titleSoftware{
+  font-size: 20px;  /* You can adjust the font size if needed */ 
+  color: aliceblue; 
+  font-weight: 700;
+  font-family: "Host Grotesk", sans-serif;  
+  text-shadow: black;
+  background-color: #4C2881;
+}
+.whatSoftware{
+  color: rgb(218, 203, 203); 
+  font-weight: 500;
+  font-family: "Host Grotesk", sans-serif;
+}
+.custom-progress {  
+  background-color: #00687b; /* Background color */  
+}  
+
+.custom-progress .progress-bar {  
+  background-color: gold; /* Progress bar color */ 
+  margin-top: 0; 
+}
+.hi{visibility: hidden;
+
+}
+.karen2{
+  color: gray;
+  font-size: 10px;
+  font-style: italic;
+}
+.span-two-rows {  
+  grid-row: span 2; /* pseudo-code as Bootstrap doesn’t support this directly */  
+}  
+
+/* Adjust the row display to use CSS Grid if necessary */  
+.row {  
+  display: flex;  
+  flex-wrap: wrap; /* Ensure it behaves nicely in a responsive context */  
+}
+#edbgd{
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin-top: 5px;
+}
+.padding{  
+  transition: opacity 0.5s;  
+  opacity: 1;  
+}  
